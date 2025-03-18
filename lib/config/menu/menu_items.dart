@@ -35,4 +35,10 @@ var appMenuItems = <MenuItem>[
     link: '/progress',
     icon: Icons.refresh_rounded,
   ),
+  MenuItem(
+    title: 'Snackbars & Dialogs',
+    subTitle: 'Indicators in screen',
+    link: '/snackbars',
+    icon: Icons.info_outline,
+  ),
 ];
