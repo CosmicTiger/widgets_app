@@ -3,6 +3,8 @@ import 'package:go_router/go_router.dart';
 import 'package:widgets_app/config/menu/menu_items.dart';
 
 class HomeScreen extends StatelessWidget {
+  static const String name = 'home_screen';
+
   const HomeScreen({super.key});
 
   @override
@@ -59,6 +61,9 @@ class _CustomListTile extends StatelessWidget {
           /// simply because deep linking issues are solved by default is the GoRouter package
           // Navigator.pushNamed(context, menuItem.link);
 
+          /// If I don't want to use context.push from GoRouter I could use the followed approach of this comment.
+          /// context.pushNamed(menuItem.name); In case that menuLink has this routing system configured which is using
+          /// the lexical naming convention.
           context.push(menuItem.link);
         });
   }
