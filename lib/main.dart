@@ -12,6 +12,9 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
+      title: 'Flutter Widgets Gallery App',
+
+      /// NOTE: This helps to show a title in the Dialog for the Licenses on our software. See, SnackbarScreen implementation.
       routerConfig: appRouter,
       theme: AppTheme(selectedColor: 3).getTheme(),
       debugShowCheckedModeBanner: false,

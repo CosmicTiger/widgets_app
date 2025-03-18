@@ -29,4 +29,40 @@ var appMenuItems = <MenuItem>[
     link: '/cards',
     icon: Icons.credit_card,
   ),
+  MenuItem(
+    title: 'Progress Indicators',
+    subTitle: 'Generals and Controlled',
+    link: '/progress',
+    icon: Icons.refresh_rounded,
+  ),
+  MenuItem(
+    title: 'Snackbars & Dialogs',
+    subTitle: 'Indicators in screen',
+    link: '/snackbars',
+    icon: Icons.info_outline,
+  ),
+  MenuItem(
+    title: 'Animated Container',
+    subTitle: 'Stateful widget with animation',
+    link: '/animated',
+    icon: Icons.check_box_outline_blank,
+  ),
+  MenuItem(
+    title: 'UI Controls + Tiles',
+    subTitle: 'Examples of a series of controls on Flutter',
+    link: '/ui-controls',
+    icon: Icons.car_rental_outlined,
+  ),
+  MenuItem(
+    title: 'Introduction to applications',
+    subTitle: 'Small tutorials on applications',
+    link: '/tutorial',
+    icon: Icons.accessible_rounded,
+  ),
+  MenuItem(
+    title: 'InfiniteScroll & Pull',
+    subTitle: 'Infinite Lists and Pull events for resources on lists',
+    link: '/infinite',
+    icon: Icons.list_alt_rounded,
+  ),
 ];
