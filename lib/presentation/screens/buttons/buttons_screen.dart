@@ -36,7 +36,7 @@ class _ButtonsView extends StatelessWidget {
             children: [
               ElevatedButton(onPressed: () {}, child: const Text('Elevated')),
               const ElevatedButton(
-                  onPressed: null, child: const Text('Elevated Disabled')),
+                  onPressed: null, child: Text('Elevated Disabled')),
               ElevatedButton.icon(
                   onPressed: () {},
                   icon: const Icon(Icons.access_alarm_rounded),
