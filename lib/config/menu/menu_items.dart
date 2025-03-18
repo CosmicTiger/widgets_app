@@ -53,4 +53,10 @@ var appMenuItems = <MenuItem>[
     link: '/ui-controls',
     icon: Icons.car_rental_outlined,
   ),
+  MenuItem(
+    title: 'Introduction to applications',
+    subTitle: 'Small tutorials on applications',
+    link: '/tutorial',
+    icon: Icons.accessible_rounded,
+  ),
 ];
