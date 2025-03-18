@@ -71,4 +71,10 @@ var appMenuItems = <MenuItem>[
     link: '/counter-riverpod',
     icon: Icons.add_box_outlined,
   ),
+  MenuItem(
+    title: 'Change Theme',
+    subTitle: 'Changes Theme of the App',
+    link: '/theme-changer',
+    icon: Icons.color_lens_outlined,
+  ),
 ];
