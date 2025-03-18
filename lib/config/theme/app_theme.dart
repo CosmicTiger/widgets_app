@@ -34,4 +34,9 @@ class AppTheme {
       appBarTheme: AppBarTheme(
         centerTitle: false,
       ));
+
+  /// NOTE: This helps to safely make copies from the original class and isolate extensible changes needed by demand
+  AppTheme copyWith({int? selectedColor, bool? isDarkMode}) => AppTheme(
+      selectedColor: selectedColor ?? this.selectedColor,
+      isDarkMode: isDarkMode ?? this.isDarkMode);
 }
