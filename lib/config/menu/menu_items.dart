@@ -47,4 +47,10 @@ var appMenuItems = <MenuItem>[
     link: '/animated',
     icon: Icons.check_box_outline_blank,
   ),
+  MenuItem(
+    title: 'UI Controls + Tiles',
+    subTitle: 'Examples of a series of controls on Flutter',
+    link: '/ui-controls',
+    icon: Icons.car_rental_outlined,
+  ),
 ];
