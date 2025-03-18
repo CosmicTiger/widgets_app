@@ -59,4 +59,10 @@ var appMenuItems = <MenuItem>[
     link: '/tutorial',
     icon: Icons.accessible_rounded,
   ),
+  MenuItem(
+    title: 'InfiniteScroll & Pull',
+    subTitle: 'Infinite Lists and Pull events for resources on lists',
+    link: '/infinite',
+    icon: Icons.list_alt_rounded,
+  ),
 ];
