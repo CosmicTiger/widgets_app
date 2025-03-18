@@ -65,4 +65,10 @@ var appMenuItems = <MenuItem>[
     link: '/infinite',
     icon: Icons.list_alt_rounded,
   ),
+  MenuItem(
+    title: 'Riverpod Counter',
+    subTitle: 'Introduction to Riverpod',
+    link: '/counter-riverpod',
+    icon: Icons.add_box_outlined,
+  ),
 ];
